@@ -1,0 +1,48 @@
+/* SearchBox.css */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #37474f;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+}
+
+.MuiTextField-root {
+  width: 100%;
+}
+
+.MuiOutlinedInput-root {
+  background-color: #263238;
+  color: #ffffff;
+}
+
+.MuiInputLabel-root {
+  color: #b0bec5 !important;
+}
+
+.MuiInputBase-input {
+  color: #ffffff !important;
+}
+
+.MuiButton-contained {
+  background-color: #00bcd4;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.MuiButton-contained:hover {
+  background-color: #0097a7;
+}
+
+p {
+  font-weight: 500;
+  color: #ef5350;
+}

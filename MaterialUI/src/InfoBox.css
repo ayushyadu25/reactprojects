@@ -1,0 +1,47 @@
+/* InfoBox.css */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.MuiCard-root {
+  width: 100%;
+  max-width: 600px;
+  background-color: #263238 !important;
+  border-radius: 20px !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.MuiCard-root:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.5) !important;
+}
+
+.MuiCardMedia-root {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  object-fit: cover;
+}
+
+.MuiTypography-h5 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #00e5ff;
+  font-weight: bold;
+}
+
+.MuiTypography-body2 p {
+  margin: 0.4rem 0;
+  color: #e0e0e0;
+}
+
+.MuiTypography-body2 i {
+  color: #4dd0e1;
+}
