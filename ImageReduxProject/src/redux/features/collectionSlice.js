@@ -31,7 +31,7 @@ const collectionSlice = createSlice({
         },
         addedToast: () => {
             toast('Added to Collection ', {
-                position: "top-right",
+                position: "bottom-right",
                 autoClose: 5000,
                 hideProgressBar: false,
                 closeOnClick: false,
@@ -44,7 +44,7 @@ const collectionSlice = createSlice({
         },
         removeToast: () => {
             toast.error('Removed from collection', {
-                position: "top-right",
+                position: "bottom-right",
                 autoClose: 5000,
                 hideProgressBar: false,
                 closeOnClick: false,
