@@ -24,7 +24,7 @@ const CollectionPages = () => {
           className="text-2xl p-2 m-5 bg-red-900 active:scale-95 w-48 rounded text-center ml-280">Clear Collection</button>
       </div>
 
-      <div className="flex justify-start w-full flex-wrap gap-6 overflow-auto px-10 bg-gray-900 ">
+<div className="grid grid-cols-[repeat(auto-fill,minmax(260px,1fr))] gap-6 px-10 bg-gray-900">
         {collection.length > 0 ?
           collection.map((items, idx) => {
             return <div key={idx}>
